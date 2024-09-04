@@ -1,0 +1,15 @@
+meta {
+  name: Log-out
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{BaseUrl}}/logout
+  body: multipartForm
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{auth_token}}
+}
