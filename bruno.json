@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "name": "Nasheed backend",
+  "name": "qs-web-api",
   "type": "collection",
   "ignore": [
     "node_modules",
