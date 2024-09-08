@@ -5,11 +5,13 @@ meta {
 }
 
 get {
-  url: {{BaseUrl}}/tracks
+  url: {{BaseUrl}}/tracks?artist_id=10&lyricists_id=3&dedication_id
   body: none
   auth: none
 }
 
 params:query {
-  ~artist_id: 1
+  artist_id: 10
+  lyricists_id: 3
+  dedication_id: 
 }
