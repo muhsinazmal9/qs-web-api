@@ -1,0 +1,15 @@
+meta {
+  name: show single data
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BaseUrl}}/albums/:id
+  body: none
+  auth: none
+}
+
+params:path {
+  id: 1
+}
